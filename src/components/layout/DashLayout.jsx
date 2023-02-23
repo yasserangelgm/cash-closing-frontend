@@ -1,13 +1,11 @@
 import { Outlet } from "react-router-dom";
-import Footer from "../footer/Footer";
-import Header from "../header/Header";
+import NavBar from "../nav/NavBar";
 
 const DashLayout = () => {
   return (
     <>
-      <div className="dashboard-container">
-        <Outlet />
-      </div>
+      <NavBar />
+      <Outlet />
     </>
   );
 };
