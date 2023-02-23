@@ -30,3 +30,7 @@ header {
 .logo-container span {
   font-size: clamp(15px, 4vw, 25px);
 }
+
+.header-button {
+  color: var(--white);
+}

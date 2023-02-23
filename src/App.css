@@ -43,3 +43,13 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.content-left-padding {
+  padding-left: inherit;
+}
+
+@media (min-width: 1200px) {
+  .content-left-padding {
+    padding-left: 200px;
+  }
+}
