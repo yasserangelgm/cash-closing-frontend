@@ -1,12 +1,12 @@
-import "./App.css";
-import { Routes, Route } from "react-router-dom";
-import Layout from "./components/layout/Layout.component";
-import Public from "./pages/Public.page";
-import Login from "./features/auth/Login.page";
-import DashLayout from "./components/layout/DashLayout";
-import DashBoard from "./pages/DashBoard.page";
-import Transactions from "./features/transactions/Transactions.page";
-import Accounts from "./features/accounts/Accounts";
+import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Layout from './components/layout/Layout';
+import Public from './pages/public/Public.page';
+import Login from './features/auth/Login.page';
+import DashLayout from './components/layout/DashLayout';
+import DashBoard from './pages/DashBoard.page';
+import Transactions from './features/transactions/Transactions.page';
+import Accounts from './features/accounts/Accounts';
 
 function App() {
   return (

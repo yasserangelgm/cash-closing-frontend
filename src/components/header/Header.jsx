@@ -1,20 +1,19 @@
-import { Link } from "react-router-dom";
-
-import React from "react";
-
+import { Link } from 'react-router-dom';
+import './header.styles.css';
 const Header = () => {
   return (
     <header>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/login">Login</Link>
-          </li>
-        </ul>
-      </nav>
+      <div className="container-fluid header-container">
+        <div className="logo-container">
+          <i className="bi bi-cash-coin"></i>
+          <span>Corte de Caja</span>
+        </div>
+        <div className="user">
+          <Link to="/login" className="btn header-button">
+            Iniciar sesión
+          </Link>
+        </div>
+      </div>
     </header>
   );
 };

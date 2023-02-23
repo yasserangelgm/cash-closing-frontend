@@ -1,0 +1,17 @@
+footer {
+  height: 60px;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-container {
+  background-color: var(--paynes-gray);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-container span {
+  color: var(--white);
+}

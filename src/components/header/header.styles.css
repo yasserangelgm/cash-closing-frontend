@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+header {
+  background-color: var(--paynes-gray);
+  height: 60px;
+  width: 100%;
+  flex-shrink: 1;
+}
+
+.header-container {
+  display: flex;
+  height: 100%;
+
+  align-items: center;
+  justify-content: space-between;
+  color: var(--white);
+}
+
+.logo-container {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logo-container i {
+  font-size: 25px;
+  margin-right: 10px;
+  line-height: 3;
+  font-size: clamp(20px, 5vw, 25px);
+}
+.logo-container span {
+  font-size: clamp(15px, 4vw, 25px);
+}
