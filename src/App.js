@@ -6,7 +6,7 @@ import Login from './features/auth/Login.page';
 import DashLayout from './components/layout/DashLayout';
 import DashBoard from './pages/DashBoard.page';
 import Transactions from './features/transactions/Transactions.page';
-import Accounts from './features/accounts/Accounts';
+import Accounts from './features/accounts/Accounts.page';
 
 function App() {
   return (

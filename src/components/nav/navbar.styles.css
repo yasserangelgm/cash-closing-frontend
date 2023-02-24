@@ -7,13 +7,22 @@ nav {
   transition: transform 0.5s ease, -webkit-transform 0.5s ease;
   z-index: 101;
   background-color: var(--battleship-gray);
-}
-.dashboard-nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
+
+.open {
+  display: flex;
+}
+
+.hide {
+  display: none;
+}
+/* .dashboard-nav {
+  display: flex;
+} */
 
 nav .menu {
   display: flex;

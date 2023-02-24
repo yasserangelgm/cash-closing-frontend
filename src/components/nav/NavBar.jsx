@@ -4,7 +4,7 @@ import './navbar.styles.css';
 const NavBar = () => {
   return (
     <>
-      <nav className="open dashboard-nav">
+      <nav className="dashboard-nav">
         <div className="menu">
           <div className="nav-link-container">
             <NavLink className="nav-link" to="summary">
